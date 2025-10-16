@@ -73,9 +73,9 @@ This Power BI dashboard visualizes the performance of the Quality Assurance (QA)
 ---
 
 ## 📥 Resources  
-- [Excel Template (Power Query Model)](data-prep/QA_Template.xlsx)  
-- [Processed CSV Data](data-prep/QA_Data_Processed.csv)  
-- [Python Processing Script](automation/QA_Data_Preprocessing.ipynb)  
+- [Excel Template (Power Query Model)](data-prep/)  
+- [Processed CSV Data](data-prep/)  
+- [Python Processing Script](data-prep/)  
 
 ---
 
