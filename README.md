@@ -54,9 +54,9 @@ This Power BI dashboard visualizes the performance of the Quality Assurance (QA)
 
 ## 📁 Repository Contents  
 - `README.md` – Project documentation  
-- `data-prep/` – Processed CSVs and Excel templates  
+- `data-prep/` – Python script, processed CSVs and Excel templates  
 - `dashboard/` – Power BI file and dashboard screenshots  
-- `automation/` – Python scripts for preprocessing  
+- `assets/` – Visuals, banners, and logos  
 
 ---
 
