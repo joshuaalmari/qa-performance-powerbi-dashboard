@@ -55,6 +55,7 @@ flowchart TD
   D --> E[[mart schema\nAggregated reporting tables:\nmv_accuracy, vw_errors_exploded]]
   E --> F[Power BI Dashboard\nVisuals: Accuracy, Errors, Trends, Auditors]
 
+---
 
 ## 📌 Key Metrics & Insights  
 
