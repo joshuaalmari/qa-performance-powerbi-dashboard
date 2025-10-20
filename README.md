@@ -47,12 +47,13 @@ It tracks <b>QA Scores, Error Categories, Accuracy Rates,</b> and <b>Audit Type 
 
 ## 🧠 SQL ETL Pipeline Diagram  
 
+```mermaid
 flowchart TD
-  A[Raw AuditPro CSVs] --> B[Python preprocessing\nClean, normalize, export CSVs]
-  B --> C[[staging schema\nRaw-to-clean tables]]
-  C --> D[[refine schema\nProcess tagging, role mapping,\nSales order cleaning, week calc]]
-  D --> E[[mart schema\nAggregated reporting tables:\nmv_accuracy, vw_errors_exploded]]
-  E --> F[Power BI Dashboard\nVisuals: Accuracy, Errors, Trends, Auditors]
+  A[Raw AuditPro CSVs] --> B[Python preprocessing<br>Clean, normalize, export CSVs]
+  B --> C[[staging schema<br>Raw-to-clean tables]]
+  C --> D[[refine schema<br>Process tagging, role mapping,<br>Sales order cleaning, week calc]]
+  D --> E[[mart schema<br>Aggregated reporting tables:<br>mv_accuracy, vw_errors_exploded]]
+  E --> F[Power BI Dashboard<br>Visuals: Accuracy, Errors, Trends, Auditors]
 
 ---
 
@@ -63,7 +64,7 @@ flowchart TD
 
 ## 🛠️ Tools & Technologies  
 - **Python (Pandas)** – Data cleaning and date normalization  
-- **Excel + Power Query** – ETL and structured data transformation  
+- **PostgreSQL + Power Query** – ETL and structured data transformation  
 - **Power BI** – Data modeling and visualization  
 
 ---
