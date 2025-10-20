@@ -49,11 +49,12 @@ It tracks <b>QA Scores, Error Categories, Accuracy Rates,</b> and <b>Audit Type 
 
 ```mermaid
 flowchart TD
-  A[Raw AuditPro CSVs] --> B[Python preprocessing<br>Clean, normalize, export CSVs]
-  B --> C[[staging schema<br>Raw-to-clean tables]]
-  C --> D[[refine schema<br>Process tagging, role mapping,<br>Sales order cleaning, week calc]]
-  D --> E[[mart schema<br>Aggregated reporting tables:<br>mv_accuracy, vw_errors_exploded]]
-  E --> F[Power BI Dashboard<br>Visuals: Accuracy, Errors, Trends, Auditors]
+    A[📥 Raw AuditPro CSVs] --> B[🐍 Python Preprocessing<br>Clean, normalize, export CSVs]
+    B --> C[🧱 staging schema<br>Raw-to-clean tables]
+    C --> D[🔄 refine schema<br>Process tagging, role mapping,<br>Sales order cleaning, week calc]
+    D --> E[📊 mart schema<br>Aggregated reporting tables:<br>mv_accuracy, vw_errors_exploded]
+    E --> F[⚡ Power BI Dashboard<br>Visuals: Accuracy, Errors, Trends, Auditors]
+```
 
 ---
 
