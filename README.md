@@ -104,9 +104,9 @@ flowchart TD
 ---
 
 ## 📥 Resources  
-- [PostgreSQL ETL Scripts](./sql-pipeline/)  
-- [Processed CSV Data](./data-prep/Audit_Data_Processed.csv)  
-- [Python Preprocessing Script](./data-prep/QA%20Report%20Data%20Processing.ipynb)
+- [PostgreSQL ETL Scripts](/sql-pipeline/)  
+- [Processed CSV Data](/data-prep/Audit_Data_Processed.csv)  
+- [Python Preprocessing Script](/data-prep/QA%20Report%20Data%20Processing.ipynb)
 
 ---
 
