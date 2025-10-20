@@ -17,16 +17,6 @@ It tracks <b>QA Scores, Error Categories, Accuracy Rates,</b> and <b>Audit Type 
 
 ---
 
-## 🧩 Tech Stack & Tools  
-
-<p align="center">
-  <img src="https://img.shields.io/badge/PostgreSQL-Data%20Transformation-336791?style=for-the-badge&logo=postgresql&logoColor=white">
-  <img src="https://img.shields.io/badge/Python-Data%20Preprocessing-3776AB?style=for-the-badge&logo=python&logoColor=white">
-  <img src="https://img.shields.io/badge/Power%20BI-Visualization%20%26%20Modeling-F2C811?style=for-the-badge&logo=powerbi&logoColor=black">
-</p>
-
----
-
 ## ⚙️ Workflow & Data Pipeline  
 
 **📥 1. Data Extraction**  
@@ -59,11 +49,11 @@ It tracks <b>QA Scores, Error Categories, Accuracy Rates,</b> and <b>Audit Type 
 
 ```mermaid
 flowchart TD
-    A[📥 Raw AuditPro CSVs] --> B[🐍 Python Preprocessing<br>Clean, normalize, export CSVs]
-    B --> C[🧱 staging schema<br>Raw-to-clean tables]
-    C --> D[🔄 refine schema<br>Process tagging, role mapping,<br>Sales order cleaning, week calc]
-    D --> E[📊 mart schema<br>Aggregated reporting tables:<br>mv_accuracy, vw_errors_exploded]
-    E --> F[⚡ Power BI Dashboard<br>Visuals: Accuracy, Errors, Trends, Auditors]
+  A[Raw AuditPro CSVs] --> B[Python preprocessing\nClean, normalize, export CSVs]
+  B --> C[[staging schema\nRaw-to-clean tables]]
+  C --> D[[refine schema\nProcess tagging, role mapping,\nSales order cleaning, week calc]]
+  D --> E[[mart schema\nAggregated reporting tables:\nmv_accuracy, vw_errors_exploded]]
+  E --> F[Power BI Dashboard\nVisuals: Accuracy, Errors, Trends, Auditors]
 
 
 ## 📌 Key Metrics & Insights  
