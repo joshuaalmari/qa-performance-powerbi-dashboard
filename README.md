@@ -47,7 +47,6 @@ It tracks <b>QA Scores, Error Categories, Accuracy Rates,</b> and <b>Audit Type 
 
 ## 🧠 SQL ETL Pipeline Diagram  
 
-```mermaid
 flowchart TD
   A[Raw AuditPro CSVs] --> B[Python preprocessing\nClean, normalize, export CSVs]
   B --> C[[staging schema\nRaw-to-clean tables]]
